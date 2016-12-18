@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WIKIPEDIA PAGE VIEWER</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+  <div class="container">
+<section>
+    <div class="row">
+        <h1 class="text-center">WIKI VIEWER</h1>
+        <hr id="rule">
+        <p class="text-center">
+          Search for an article or get a random article picked for you
+        </p>
+<!-- Search for certain article -->
+      <div id="search">
+        <form id="searchForm">
+          <input type="text" id="searchItem" placeholder="Search" class="form-control">
+        </form>
+      <div id="wikiBtns">
+        <button id="searchBtn" class="btn btn-md btn-info">SEARCH</button>
+<!-- On click opens a random wikipedia article -->
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="randGenerator" class="btn btn-md btn-warning">RANDOM</button></a>
+      </div>
+      </div>
+      <hr>
+<!-- Search data displays here -->
+     <ul id="results">
+       
+     </ul>
+
+     </div>
+</section>
+  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/program.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: grey;
+	height: 100%;
+}
+
+.container{
+	background-color: #256ea7;
+	min-height: 100%;
+
+}
+
+#searchItem{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+#wikiBtns{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
+
+#searchBtn{
+	margin-right: 10px;
+}
+
+#searchForm{
+	margin-bottom: 15px;
+}
+
+section{
+	padding-top: 20px;
+}
+
+h1{
+	color: #000000;
+	font-size: 60px;
+	font-family: Aclonica;
+}
+
+p{
+	font-size: 24px;
+	font-family: "Alike Angular";
+	color: white;
+	margin-bottom: 30px;
+}
+
+#rule{
+	border-width: 5px;
+}
+
+button{
+	width: 130px;
+}
+
+#results{
+	font-family: 'Nunito Sans', sans-serif;
+	list-style: none;
+	padding: 10px;
+
+}
+
+#results a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+	color: #1f0b0b;
+}
+
+#results a:hover{
+	color: #df5b00;
+}
+
+#results p{
+	font-size: 18px;
+}

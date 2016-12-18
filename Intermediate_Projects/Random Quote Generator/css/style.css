@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(246, 190, 64);
+  color: white;
+}
+#quote{
+  text-align: center;
+  font-size: 24px;
+}
+
+#tweetQuote{
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  margin-left: 20px;
+}
+
+#buttonsDiv{
+  margin-top: 10px;
+}
+
+.navbar-brand img{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -10px;
+}
+
+.navbar{
+  background-color: rgb(241, 242, 171);
+  opacity: 0.4;
+}
