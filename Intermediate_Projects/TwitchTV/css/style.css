@@ -1,0 +1,80 @@
+.container{
+  max-width: 960px;
+}
+#searchDiv{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.header h1{
+  font-size: 48px;
+  margin-top: 0;
+}
+
+#headDiv{
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.status{
+  margin-left: 30px;
+}
+
+hr{
+  border: 1px solid #000;
+}
+
+.offline{
+  line-height: 60px;
+  background-color: rgb(135, 20, 82);
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.offline img{
+  height: 50px;
+}
+
+.online{
+  line-height: 60px;
+  background-color: rgb(240, 169, 31);
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.online img{
+  height: 50px;
+}
+
+.error{
+  line-height: 60px;
+  background-color: rgb(203, 62, 43);
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.error img{
+  height: 50px;
+}
+
+#fccStatus{
+  text-decoration: none;
+  color: rgb(29, 31, 29);
+}
+
+#followerInfo{
+  margin-top: 8px;
+  color: white;
+}
+
+#followersStats{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#buttonStatus button{
+  width: 90px;
+  line-height: 25px;
+  margin-bottom: 8px;
+}

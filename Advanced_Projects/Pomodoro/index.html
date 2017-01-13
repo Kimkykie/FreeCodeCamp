@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  <body>
+    <div class="container" id="app" v-bind:class="{work: pomodoroState === 'work', rest: pomodoroState === 'rest'}">
+      <span id="heading">POMODORO CLOCK</span>
+      <div id="pomodorotimer">
+        <h2>{{ title }}</h2>
+        <div id="timer">
+          <span id="min">{{ min }}</span>:<span>{{ sec }}</span>
+        </div>
+      </div>
+      <button :disabled="state==='started'" class="btn" v-on:click="start"><i class="fa fa-play"></i></button>
+      <button :disabled="state !== 'started'" class="btn" v-on:click="pause"><i class="fa fa-pause"></i></button>
+      <button :disabled="state!=='started'	&& 	state	!==	'paused'" class="btn" v-on:click="stop"><i class="fa fa-stop"></i></button>
+
+      <div id="changetimer">
+        <div class="form-group">
+        <label for="work">Session Length</label>
+        <input type="text" id="work" name="work" class="form-control" v-model="workminute" :disabled="state === 'started'">
+        </div>
+
+        <div class="form-group">
+        <label for="rest">Rest Length</label>
+        <input type="text" id="rest" name="rest" class="form-control" v-model="restminute" :disabled="state === 'started'">
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/vue.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/program.js"></script>
+  </body>
+</html>
