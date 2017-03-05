@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(10, 47, 64);
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+#calcout{
+  background-color: rgb(10, 10, 11);
+  color: white;
+  width: 250px;
+  height: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#maincalc{
+  background-color: rgb(59, 56, 54);
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#steps{
+  padding-left: 50px;
+  font-size: 2em;
+}
+
+a{
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.bigbtn{
+  width: 96px;
+}
